@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action=".display.html">
+    <!-- 
+        Form 
+           - An HTML is used to collect users intput.
+           - It id represented by <frame> tag containing different types of input elements in it.
+            - action attributes help thr form to reddirect the page to another, if submitted through the button in the form.
+            
+    -->
+        <style>
+            #name{
+
+            }
+        </style> 
+
+        <lable for="name">Name</lable>
+        <!--
+           
+        Lable tag:
+           - a lable tag is used to disclose a text in the form, reffering to the Input field.
+           - "for" key in attribute is mapped with the input element's id to find the respective
+              field to it.     
+        -->
+
+        <input type="text" id="name" placeholder="full name">
+        <!--
+            INPUT Tag
+             - Having an input field to store the user's data.
+             - default input is of 'text' type.
+             - Attributes:
+                - required:    Makes the input field mandatory.
+                - disable:     makes the input field inactive.
+                - checked:     makes the selected checkbox checked
+                - placeholder: helps the user to understand about an input field.
+            -Types
+               - Text (default state)
+               - number
+               - date
+               - password
+               - email
+               - color
+               - url
+               - time
+               - DateTime
+               - radio
+               - buttons
+                   - Submit
+                   - Reset
+            
+         -->  
+
+       <br><br>
+
+
+  <lable for="num">Ph-no Number</lable>
+  <input type="number" id="num" placeholder="phone Number" max="99">
+
+
+       <br><br>
+
+
+  <lable for="date"> Date of birth</lable>
+  <input type="date" id="date" placeholder="date of birth">
+
+
+       <br><br>
+
+
+  <lable for="pass"> password<span style="color: red; font-size: 15px;">*</span></lable>
+  <input type="password" id="pass" required placeholder="Password">
+
+
+      <br><br>
+
+<lable for="mail">Email</lable>
+<input type="email" id="mail" placeholder="Email">
+     
+     <br><br>
+
+<lable>Gender:</lable>
+ <input type="Radio" name="gender" id="mail" value="Male"></form></body>
+   <lable for="male">Male</lable>
+<input type="radio" name="gender" id="female" value="female">
+    <lable for="female">Female</lable>
+<input type="radio" name="gender" id="others" value="other">
+    <lable for="others">Others</lable>
+
+<br><br>
+
+<lable for="lang">Language: </lable>
+ <input type="checkbox" name="Language" id="hin" value="hindi">
+    <lable for="hin">Hindi</lable>
+ <input type="checkbox" name="language" id="eng" value="English">
+    <lable for="eng">English</lable>
+ <input type="checkbox" name="language" id="beng" value="Bengali">
+    <lable for="beng">Bengali</lable>
+<input type="ckeckbox" name="language" id="tam" value="tamil">
+    <lable for="tam">Tamil</lable>
+
+<br><br>
+
+<lable for="count">Country:</lable>
+  <select id="count">
+    <option selected disabled>Please select a country</option>
+    <option value="India">India</option>
+    <option value="Australia">Australia</option>
+    <option value="Nepal">Nepal</option>
+    <option value="egypt">Egypt</option>
+
+  </select>
+
+  <br> <br>
+
+<button>submit-btn</button>
+
+<input type="submit" value="Submit-inp">
+
+<input type="reset" value="reset">
+</form>
+ </html>

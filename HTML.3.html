@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+
+    <title>HTML-05</title>
+
+    <style>
+         table,tr,td,th {  
+             border: 2px solid Blue;
+             text-align: center;
+             border-collapse: collapse;
+         }
+
+    </style>
+</head>
+<body>
+
+    <!-- Tables -->
+    <h3>Tables</h3>
+
+    <table style="width: 50%"> <!-- start of a table  --> 
+
+        <!-- Table body -->
+        <tr>   <!-- Table row -->
+             <th> <!-- Table Heading --> 
+                Countries
+             </th>
+             <th>
+                States
+             </th>
+             <th>
+                Population
+             </th>
+        </tr>
+
+        <!-- Table Head -->
+         <tr>
+            <td>     <!-- Table data --> 
+                India
+            </td>
+            <td>
+                Maharashtra
+            </td>
+            <td>
+                25,020
+            </td>
+
+         </tr>
+            <td> <!-- table Data -->
+                 Australia
+            </td>
+            <td>
+                Sydney
+            </td>
+            <td>
+                18,500
+            </td>
+
+         </tr>
+         <!-- Table Foot -->
+          <tr> 
+            
+            <td>
+                2
+            </td>
+            <td>
+                2
+            </td>
+            <td>
+                2
+            </td>
+          </tr>
+    </table> <!-- end of a table -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.59473267557!2d73.84451207502843!3d18.63728948247903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c71a3832e077%3A0x2230cf1344e7c6ac!2sZUDIO%20-%20Pune%2C%20Indrayani%20Nagar!5e0!3m2!1sen!2sin!4v1722881754711!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe width="460" height="315" src="https://www.youtube.com/embed/FjzGQcH0JwI?si=n2OcTCyagor5F0Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+       <!-- 
+               Merging of cells :
+                - Rows
+                    Rowspan    -> Merging number of rows's cells.
+                    
+                - columns
+                    cospan    ->  merging number of columns.
+        -->
+<h4> Rowspan Example</h4>
+<table style="width: 50%;">
+    <tbody>
+        <tr>
+            <td> Value </td>
+            <td> Value </td>
+            <td rowspan="2">value</td>  <!-- merges the 2 row's cell -->
+        </tr>
+
+        <tr>
+            <td> Value</td>
+            <td> value</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+<hr>
+
+<h4> Colspan Example</h4>
+<table style="width: 50%;">
+    <tbody>
+        <tr>
+            <td>Value</td>
+            <td>Value</td>
+            <td>Value</td>
+
+        </tr>
+
+        <tr>
+            <td> Value</td>
+            <td> Value</td>
+            <td> Value</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"> Value</td> <!-- Merging 2 columns cells -->
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+</body>
+
+
+
+

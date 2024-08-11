@@ -1,0 +1,100 @@
+<body>
+
+    <!--
+       colors 
+            - color names
+                 - They are pre_defined color names for web.
+                 - standard color names.
+                 
+            - RGB Values
+                 - Three Light Sources - RED,GREEN,BLUE.
+                 - The value for each color shows the intensity.
+                 - Ranges from 0 to 255 values for each color.
+                 - TOtal color available:
+                 256*256*256 = 16777216 possible colors
+            
+            - RGBA Values
+                - Similar to RGB with an alpha value.
+                - Alpha value helps in bring the transperancy in the color.
+                - Alpha value is ranged in between of 0.0 to 1.0
+                - where 1.0 is stated to be solid color.
+                - where 0.0 is stated to be a transperent color.
+
+            - Hex values
+                 - very much similar to RGB values havingnthe same concept of light sources.
+                 - it uses HEXA Decimal values for representation.
+                 - Syntax
+                   #   -> dedfining the hexa values for representation.
+                         values will be for RED Green BLUE colors.
+                         Each color will be shown with a pair of digits.
+
+                         RED     -> 00
+                         GREEN   -> 00
+                         BLUE    -> 00
+                         #000000 -> Black
+                         #ffffff -> White
+
+            - HSL values   (hslpicker.com) 
+                - Stated for HUE, SATURATION, LIGHTNESS 
+                - HUE              -> represent the color shades in a range of valued from 0 to 360.
+                - saturation       -> represent a particular color shade, range from 0 to 100 in percentage.
+                - Lightness        -> represent the color to be be light or dark, ranges from 0 to 100 in percentage.
+                
+            - HSLA Values  
+                - similar to HSL with an alpha value.
+                - alpha value helps to bring the transperancy inn the color.
+                - alpha value is ranged from between of 0.0 to 1.0
+                - where 1.0 is stated to be solid color.
+                - where 0.0 is stated to be transparent color.
+    -->
+        
+  
+    <p style="color: orange;"> This is in RED by color.</p>
+
+    <p style="color: rgb(200, 0, 0);">this is in red by RGB value.</p>
+
+    <p style="color: rgba(255, 0, 0.5);">this is in RED by RGBA value.</p>
+
+    <p style="color: #65996c;">this is in RED by Hex value.</p>
+
+    <p style="color: hsl(320, 81%, 51%);"> This is in RED by HSL value.</p>
+    
+    <p style="color : hsla(360, 70%, 47%, 0.5);"> this is in REd by HSLA value.</p>
+
+
+
+
+
+
+    <!--
+             - A div tag is a container which can store multiple HTML elements.
+             - Also known as division tag.
+             - Support nesting in HTML.
+             - It is a generic block level element.
+                  - It takes the whole row of the page.
+                  - It allows next new tags to sit on the new row only.
+                  - It accept width and height customizations.
+    -->
+
+    <div style="background-color: darkorange;"> Block - 1 </div>
+    <div style="background-color: rgb(46, 29, 176);"> Block-2 </div>
+    <div style="background-color: rgb(184, 219, 28);"> Block - 3</div>
+
+<!-- 
+      - A span tag is a container which can store only text values.
+      - Does not supports nesting in HTML.
+      - It is a generic Inline element.
+           - It takes the necessary content part only.
+           - It allows to a next tags to sit next to it, if space is available.
+           - Cannot customize the width and height of the element.
+           
+-->
+
+<span style="bakground-color: lightseagreen;"> Block- 01chgtycjkvyv kj </span>
+<span style="bakground-color: rgb(117, 178, 32);"> block -02 </span>
+<span style="background-color: rgb(181, 130, 35);"> block - 03 </span>     
+
+
+
+
+</body>
